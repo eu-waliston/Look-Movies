@@ -1,0 +1,88 @@
+.home__page {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 350px rgba(0, 0, 0, 0.685);
+}
+
+.home__itens {
+    color: #fff;
+    height: 40%;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.home__itens h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.home__itens p {
+    font-size: 20px;
+}
+
+.btns {
+    margin-top: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btns a {
+    margin-top: 80px;
+    text-decoration: none;
+}
+
+.bnt_1 {
+    margin-right: 120px;
+    background-color: rgb(219, 13, 13);
+    padding: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.5s;
+}
+.bnt_1:hover {
+    color: rgb(219, 13, 13);
+    background-color: #fff;
+}
+
+.bnt_2 {
+    color: rgb(255, 255, 255);
+    padding: 17px;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.bnt_2:hover {
+    color: rgb(219, 13, 13);
+    background-color: #fff;
+}
+
+span {
+    color: rgb(219, 13, 13); 
+}
+
+/*
+======= SLICK =======
+*/
+
+.slicker {
+    position: relative;
+    top: 70px;
+    left: 20%;
+}
+
+.poster__image {
+    width: 220px;
+    
+}
+
+.slider__form {
+    width: 1600px;
+}

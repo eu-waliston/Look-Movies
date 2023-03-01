@@ -1,0 +1,50 @@
+.navbar_ {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.nav__itens {
+    display: flex !important;
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+
+}
+
+.menu__itens {
+    display: flex !important;
+}
+
+
+.logo__icon {
+    width: 120px;
+    position: relative;
+    display: block;
+}
+
+.accout__info {
+    display: flex;
+    font-size: 22px;
+}
+
+.bi {
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.nav_iten {
+    display: block;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.nav_iten:hover , .bi:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(255, 5, 5);
+}
