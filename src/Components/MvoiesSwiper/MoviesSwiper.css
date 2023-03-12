@@ -48,8 +48,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 360px) {
     .swiper {
         position: relative;
@@ -69,6 +67,14 @@
         position: relative;
         left: 36%;
         top: -430px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .swiper {
+        position: relative;
+        left: -5px !important;
+        top: -30% !important;
     }
 }
 

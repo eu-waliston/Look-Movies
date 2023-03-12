@@ -160,8 +160,6 @@ span {
     }
 }
 
-
-
 @media screen and (max-width: 360px) {
 
     .home__page {
@@ -201,15 +199,6 @@ span {
     }
 }
 
-
-@media screen and (max-with: 393px) {
-    .home__page {
-        height: 160vh !important;
-        width: 100% !important;
-    }
-
-}
-
 @media screen and (max-width: 1024px) {
     .home__page {
         overflow: hidden;
@@ -239,6 +228,43 @@ span {
     .bnt_2 {
 
         padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .home__page {
+        height: 120vh !important;
+        overflow: hidden;
+    }
+
+    .home__itens h1 {
+        font-size: 1.8rem !important;
+        position: relative;
+        margin-left: -8px !important;
+        top: -100px !important;
+    }
+
+    .home__itens p {
+        font-size: 1rem !important;
+        position: relative;
+        margin-left: -8px !important;
+        top: -80px !important;
+        width: 60%;
+        left: 20%;
+    }
+
+    .btns {
+        position: relative;
+        margin-left: 10px !important;
+        top: -220px !important;
+    }
+
+    .bnt_1,
+    .bnt_2 {
+
+        margin-right: 25px;
+
 
     }
 }
