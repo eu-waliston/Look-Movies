@@ -161,7 +161,7 @@ span {
 @media screen and (max-width: 360px) {
 
     .home__page {
-        height: 130vh !important;
+        height: 150vh !important;
     }
 
 
