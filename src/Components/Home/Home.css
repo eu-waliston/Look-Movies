@@ -1,10 +1,11 @@
 .home__page {
-    height: 100vh;
-    width: 100%;
+    height: 100vh !important;
+    width: 100% !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-shadow: inset 0px 0px 350px rgba(0, 0, 0, 0.685);
+    overflow: hidden;
 }
 
 .home__itens {
@@ -86,6 +87,7 @@ span {
 
     .home__page {
         height: 110vh !important;
+        overflow: hidden;
     }
 
 
@@ -163,7 +165,8 @@ span {
 @media screen and (max-width: 360px) {
 
     .home__page {
-        height: 150vh !important;
+        height: 140vh !important;
+        overflow: hidden;
     }
 
 
@@ -208,6 +211,10 @@ span {
 }
 
 @media screen and (max-width: 1024px) {
+    .home__page {
+        overflow: hidden;
+    }
+
     .home__itens h1 {
         font-size: 2rem;
         position: relative;
