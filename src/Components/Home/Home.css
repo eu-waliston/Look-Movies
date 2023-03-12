@@ -163,8 +163,8 @@ span {
 @media screen and (max-width: 360px) {
 
     .home__page {
-        height: 140vh !important;
-        overflow: hidden;
+        height: 170vh !important;
+        overflow: auto !important;
     }
 
 
@@ -234,7 +234,7 @@ span {
 
 @media screen and (max-width: 393px) {
     .home__page {
-        height: 120vh !important;
+        height: 140vh !important;
         overflow: hidden;
     }
 
