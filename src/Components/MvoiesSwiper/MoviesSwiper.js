@@ -36,6 +36,10 @@ const MoviesSwiper = () => {
             slidesPerView: 3,
             spaceBetween: 40,
           },
+          991: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+          },
           1024: {
             slidesPerView: 1,
             spaceBetween: 50,
