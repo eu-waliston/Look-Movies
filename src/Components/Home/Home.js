@@ -3,7 +3,7 @@ import "./Home.css";
 
 import image from "../img/fundo.png"
 
-import Slicker from "./Slicker";
+import MoviesSwiper from "../MvoiesSwiper/MoviesSwiper";
 
 const Home = () => {
     return (
@@ -17,9 +17,9 @@ const Home = () => {
                 <a href="/" className="bnt_2">lern more</a>
                 </div>
 
-                <Slicker />
+                <MoviesSwiper />
             </div>
-           
+
         </div>
     )
 }
