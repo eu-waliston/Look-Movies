@@ -48,6 +48,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 360px) {
     .swiper {
         position: relative;
@@ -69,3 +71,4 @@
         top: -430px;
     }
 }
+

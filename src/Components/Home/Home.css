@@ -199,9 +199,9 @@ span {
 }
 
 
-@media screen and (max-with: 393px){
+@media screen and (max-with: 393px) {
     .home__page {
-        height: 120vh !important;
+        height: 160vh !important;
         width: 100% !important;
     }
 
@@ -235,4 +235,3 @@ span {
 
     }
 }
-
